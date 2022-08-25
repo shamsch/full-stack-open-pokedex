@@ -19,18 +19,15 @@ module.exports = {
     "react", "jest"
   ],
   "rules": {
-    "indent": [
-      "error",
-        2
-      ],
+    "indent": 
+      ["error", "tab"],
     "linebreak-style": [
       "error",
       "unix"
     ],
     "quotes": [
       "error",
-      "double",
-      "single"
+      "double"
     ],
     "semi": [
       "error",
@@ -48,5 +45,6 @@ module.exports = {
     "react/prop-types": 0,
     "no-undef": "off",
     "no-console": "off",
+    "linebreak-style": "off",
   }
 }
