@@ -1,8 +1,9 @@
 describe("Pokedex", function () {
-	it("front page can be opened", function () {
-		cy.visit("http://localhost:5000");
-		cy.contains("pikachu");
-	});
+	it("should load", function () {
+		cy.visit("http://localhost:5000", {
+			timeout: 120000,
+		});
+	}),
 	it("Pokemon called Charmander can be opened and has right content", function () {
 		cy.get("#app")
 			.get("div")
