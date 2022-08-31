@@ -1,1 +1,1 @@
-web: npm run dfdfsa-prod
+web: npm run start-prod
